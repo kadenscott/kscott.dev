@@ -1,13 +1,11 @@
-<a href="{link}">
-    <div class="icon-link">
-        <div class="icon-link--icon">
-            <Icon data="{icon}"/>
-        </div>
-        <div class="icon-link--title">
-            <h3>{title}</h3>
-        </div>
+<div class="icon-link">
+    <div class="icon-link--icon">
+        <Icon data="{icon}" scale="10"/>
     </div>
-</a>
+    <div class="icon-link--title">
+        <h1>{title}</h1>
+    </div>
+</div>
 
 <script>
     import Icon from 'svelte-awesome'
@@ -20,9 +18,23 @@
 <style>
     .icon-link {
         display: flex;
+        flex-direction: column;
+        background-color: var(--fg);
+        border-radius: 0.5em;
+        box-shadow: 5px 5px 5px #222;
+        padding: 1em;
+        padding-inline: 5em;
+        align-items: center;
     }
 
     .icon-link--icon {
+        color: var(--fg-light);
+    }
 
+    .icon-link--icon:visited {
+    }
+
+    .icon-link--title {
+        color: var(--fg-light);
     }
 </style>
