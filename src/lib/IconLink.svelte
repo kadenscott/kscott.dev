@@ -22,9 +22,9 @@
         background-color: var(--fg);
         border-radius: 0.5em;
         box-shadow: 5px 5px 5px #222;
-        padding: 1em;
-        padding-inline: 5em;
+        padding: 3em 5em;
         align-items: center;
+        transition: transform 0.3s ease-in-out;
     }
 
     .icon-link--icon {
@@ -36,5 +36,9 @@
 
     .icon-link--title {
         color: var(--fg-light);
+    }
+
+    .icon-link:hover {
+        transform: translateY(-1em);
     }
 </style>
