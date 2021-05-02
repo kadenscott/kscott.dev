@@ -7,8 +7,8 @@
 </div>
 
 <script>
-    import {faTools} from '@fortawesome/free-solid-svg-icons/faTools'
-    import {faList} from '@fortawesome/free-solid-svg-icons/faList'
+    import {faTools} from '@fortawesome/free-solid-svg-icons/faTools.js'
+    import {faList} from '@fortawesome/free-solid-svg-icons/faList.js'
     import IconLink from "../lib/IconLink.svelte";
 </script>
 
