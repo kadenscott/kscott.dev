@@ -4,7 +4,7 @@
             <Icon data="{icon}"/>
         </div>
         <div class="icon-link--title">
-            <h3>{{title}}</h3>
+            <h3>{title}</h3>
         </div>
     </div>
 </a>
